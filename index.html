@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather project</title>
+  </head>
+  <body>
+      <div class="container">
+      <form id="search-city">
+        <input type="text" placeholder="City..." autocomplete="off" id="search-text-input" />
+        <input type="submit" value="Search" />
+      </form>
+      <button id="current-location">Current City</button>
+      <div class="row">
+        <div class="col city" id="current-city">MATOSINHOS</div>
+      </div>
+      <div class="row">
+        <div class="col date-time" id="current-day">Saturday, 13 Fev 10:30</div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-4"><i class="fas fa-cloud-sun"></i></div>
+        <div class="col-4">
+          <div class="currenttemp"> 
+            <span class="temperature" id="temperature">15</span> 
+            <span class="units">
+              <a href="#" id="celcius-temp">ºC </a> |
+              <a href="#" id="fahrenheit-temp">ºF </a>                
+            </span>
+          </div>
+          <div class="vartemp">10º|15º</div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-12 weatherspec">Feels like: 14ºC</div>
+            <div class="col-12 weatherspec">Wind: 18km/h</div>
+            <div class="col-12 weatherspec">Humidity: 81%</div>
+            <div class="col-12 weatherspec">Precipitation: 10%</div>
+          </div>
+        </div>
+      </div>
+    </br>
+      <div class="row next5">
+        <div class="col day">Sunday</div>
+        <div class="col day">Monday</div>
+        <div class="col day">Tuesday</div>
+        <div class="col day">Wednesday</div>
+        <div class="col day">Thrusday</div>
+      </div>
+      <div class="row next5">
+        <div class="col simbol"><i class="fas fa-cloud"></i></div>
+        <div class="col simbol"><i class="fas fa-cloud"></i></div>
+        <div class="col simbol"><i class="fas fa-cloud-rain"></i></div>
+        <div class="col simbol"><i class="fas fa-cloud-rain"></i></div>
+        <div class="col simbol"><i class="fas fa-cloud-rain"></i></div>
+      </div>
+      <div class="row next5">
+        <div class="col temp">10º|17º</div>
+        <div class="col temp">12º|19º</div>
+        <div class="col temp">11º|14º</div>
+        <div class="col temp">11º|14º</div>
+        <div class="col temp">11º|14º</div>
+      </div>
+    </div>
+  </body>
+</html>
