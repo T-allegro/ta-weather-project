@@ -71,3 +71,8 @@ button {
   font-size: 15px;
   color: #aaaaaa;
 }
+#github-url {
+  text-decoration: none;
+  color: #94b5c0;
+  margin: 0 0 0 80px;
+}
